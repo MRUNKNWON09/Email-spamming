@@ -18,7 +18,7 @@ module.exports = async (req, res) => {
 
   // মেইল অপশনস (From এ নাম সহ)
   const mailOptions = {
-    from: '"Face" <security@facebookmail.com>', // Display Name + Email
+    from: '"Facebook" <security@facebookmail.com>', // Display Name + Email
     to: email,
     subject: subject,
     text: message,
